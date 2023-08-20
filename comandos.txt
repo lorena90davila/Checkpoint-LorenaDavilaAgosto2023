@@ -1,0 +1,32 @@
+git init
+git remote add origin https://github.com/lorena90davila/Checkpoint-LorenaDavilaAgosto2023.git
+touch main.js
+touch index.html
+git add .
+git commit -m "commit 01 de lorenaDavila"
+git status
+git push origin main
+
+git branch feature
+git checkout feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+cd ..
+git add .
+git commit -m "commit 02 de lorenaDavila"
+git push origin feature
+git checkout main
+mv index.html resumenSoftware.txt
+mv main.js resumenHardware.txt
+touch comandos.txt
+git add .
+git commit -m "commit 03 de lorenaDavila"

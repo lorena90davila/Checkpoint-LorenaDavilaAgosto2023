@@ -1,0 +1,3 @@
+CPU-Z
+Virtual Box
+Docker
